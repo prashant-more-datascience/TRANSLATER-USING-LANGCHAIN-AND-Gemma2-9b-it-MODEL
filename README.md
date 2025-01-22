@@ -10,14 +10,19 @@ How It Works
 Input Fields:
 Enter the text you want to translate in the "Text to Translate" field.
 Specify the target language in the "Target Language" field (e.g., French, Spanish, German).
+
 AI-Powered Translation:
 The app uses a LangChain pipeline that combines:
 A prompt template for setting the translation context.
 The ChatGroq model for processing the translation request.
 An output parser to extract and display the translated text.
+
+
 Output:
 Click the "Translate" button to submit your inputs.
 The app processes your request and displays the translated text instantly.
+
+
 Tech Stack
 Python
 Streamlit: For the web-based user interface.
